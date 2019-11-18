@@ -2,6 +2,10 @@
   font-family: 'Sulphur Point', sans-serif;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   height: 100vh;
   position: relative;
