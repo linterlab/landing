@@ -10,6 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: column;
 }
 
 html, body {
@@ -20,10 +21,15 @@ h1 {
   text-align: center;
   font-size: 4em;
   color: rgb(22, 44, 64);
+  margin: 0;
 }
 
 span {
   color: rgb(240, 72, 72);
+}
+
+a {
+  color: rgb(86, 171, 242)
 }
 
 @media (prefers-color-scheme: dark) {
