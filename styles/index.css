@@ -10,7 +10,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 html, body {
@@ -34,7 +33,7 @@ a {
 
 img {
   height: 150px;
-  margin-bottom: -20px;
+  margin-bottom: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
